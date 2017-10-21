@@ -21,10 +21,11 @@ GIT
 
 GIT
   remote: https://github.com/firstdraft/web_git.git
-  revision: 46e0d88a7baf7de33f6ad9c153b9fea284028221
+  revision: 818a3920de498f05f64daebec3f0dff98101d40a
   specs:
     web_git (0.0.1)
       bootstrap (~> 4.0.0.beta)
+      git_clone_url
       jquery-rails
       octicons_helper
       tether-rails
@@ -127,6 +128,8 @@ GEM
       factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
     ffi (1.9.18)
+    git_clone_url (2.0.0)
+      uri-ssh_git (>= 2.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     hashdiff (0.3.2)
@@ -264,6 +267,7 @@ GEM
       tzinfo (>= 1.0.0)
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
+    uri-ssh_git (2.0.0)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
