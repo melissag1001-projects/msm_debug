@@ -20,6 +20,6 @@
 /.env*
 
 .rbenv-gemsets
-.grades.yml
-whitelist.yml
+.grades-new.yml
+whitelist-new.yml
 examples.txt
