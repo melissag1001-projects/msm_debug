@@ -180,7 +180,6 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (2.0.5)
-    puma (3.10.0)
     rack (2.0.3)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
@@ -307,7 +306,6 @@ DEPENDENCIES
   listen (~> 3.0.5)
   meta_request
   pry-rails
-  puma (~> 3.0)
   rails (~> 5.0.1)
   rspec-rails
   sass-rails (~> 5.0)
